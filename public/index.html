@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Universe Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="background-visualizer"></div>
+
+<div class="controls-container">
+    <div id="login-section">
+        <button onclick="window.location.href='/login'" class="control-button">
+            Connect with Spotify
+        </button>
+    </div>
+    <div id="user-controls" class="hidden">
+        <button onclick="window.location.href='/login'" class="control-button">Switch User</button>
+        <button onclick="window.location.href='/logout'" class="control-button logout">Logout</button>
+        <button onclick="toggleTimeRange()" class="control-button time-range">Last 6 Months</button>
+    </div>
+</div>
+
+<div id="visualization" class="hidden">
+    <div class="genre-stats"></div>
+    <div class="orbit-container"></div>
+</div>
+
+<div class="artist-info-popup hidden">
+    <div class="artist-info-content">
+        <div class="artist-header"></div>
+        <div class="artist-details"></div>
+        <div class="audio-controls"></div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
