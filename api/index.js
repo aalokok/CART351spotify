@@ -12,7 +12,7 @@ app.use(express.static('public'));
 // Spotify API credentials
 const client_id = process.env.SPOTIFY_CLIENT_ID;
 const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
-const redirect_uri = 'http://localhost:3000/callback';
+const redirect_uri = 'https://cart-351spotify.vercel.app/callback';
 
 // Store tokens in memory (use a proper database in production)
 let tokens = {};
