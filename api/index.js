@@ -111,4 +111,6 @@ app.get('/artist-preview/:id', async (req, res) => {
         console.error('Error fetching artist preview:', error);
         res.status(500).json({ error: 'Failed to fetch artist preview' });
     }
+
 });
+module.exports = app;

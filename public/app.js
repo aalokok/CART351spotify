@@ -235,7 +235,31 @@ function createArtistNode(artist, index) {
 function animateArtistNode(node, artist) {
     const container = document.querySelector('.orbit-container');
     const angle = (Math.random() * Math.PI * 2);
-    const radius = 150 + Math.random() * 100;
+    const radius = 150 + Math.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    random() * 100;
     const centerX = window.innerWidth / 2;
     const centerY = window.innerHeight / 2;
 

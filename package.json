@@ -2,9 +2,9 @@
   "name": "spotify-visualizer",
   "version": "1.0.0",
   "description": "Spotify data visualization app",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
